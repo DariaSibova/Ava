@@ -33,3 +33,21 @@ body{
   
     animation: scaling 1s ease backwards reverse;
   }
+
+  .ava__shoulders{
+    border-radius: 40% 40% 50% 50%;
+    width: 100px;
+    height: 50px;
+    background-color: #eff0f1;
+    position: absolute;
+    left: calc(50% - 50px);
+    bottom: 30px;
+    animation: scaling 1s ease backwards reverse;
+  
+  }
+  
+  @keyframes scaling{
+    100%{
+      transform: scale(0);
+    }
+  }
