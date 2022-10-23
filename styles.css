@@ -28,7 +28,7 @@ body{
     height: 50px;
     background-color: #eff0f1;
     position: absolute;
-    left: calc(50%-25px);
+    left: calc(50% - 25px);
     top: 50px;
   
     animation: scaling 1s ease backwards reverse;
