@@ -6,3 +6,18 @@ body{
     justify-content: center;
     background-color: #b49c73;
   }
+
+  .ava{
+    position: relative;
+  }
+  
+  .ava::before{
+    content: "";
+    background-color: #34558b;
+    display: block;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    animation: scaling 1s ease backwards reverse;
+  }
+  
